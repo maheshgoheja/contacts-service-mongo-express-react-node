@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Contacts service API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Contacts Service API is running\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshgoheja/contacts-service-mongo-express-react-node.git"
+  },
+  "keywords": [
+    "Contacts"
+  ],
+  "author": "Mahesh Goheja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshgoheja/contacts-service-mongo-express-react-node/issues"
+  },
+  "homepage": "https://github.com/maheshgoheja/contacts-service-mongo-express-react-node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
