@@ -2,7 +2,6 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Contacts service API",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -23,7 +22,11 @@
   },
   "homepage": "https://github.com/maheshgoheja/contacts-service-mongo-express-react-node#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "morgan": "^1.10.0",
     "nodemon": "^3.0.1"
   }
 }
